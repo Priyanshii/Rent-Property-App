@@ -5,7 +5,7 @@ const data = [
     id: 1,
     location: Mumbai,
     price: 11000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-15",
     property_type: Flat,
     favourite: false,
     image:
@@ -15,7 +15,7 @@ const data = [
     id: 2,
     location: Mumbai,
     price: 21000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-15",
     property_type: Flat,
     favourite: false,
     image:
@@ -25,7 +25,7 @@ const data = [
     id: 3,
     location: Mumbai,
     price: 27000,
-    available_from: "09/12/2022",
+    available_from: "2022-11-15",
     property_type: Flat,
     favourite: false,
     image:
@@ -35,7 +35,7 @@ const data = [
     id: 4,
     location: Mumbai,
     price: 35000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-25",
     property_type: Flat,
     favourite: false,
     image:
@@ -45,7 +45,7 @@ const data = [
     id: 5,
     location: Mumbai,
     price: 39000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-15",
     property_type: Flat,
     favourite: false,
     image:
@@ -55,7 +55,7 @@ const data = [
     id: 6,
     location: Mumbai,
     price: 29000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-15",
     property_type: House,
     favourite: false,
     image:
@@ -65,7 +65,7 @@ const data = [
     id: 7,
     location: Mumbai,
     price: 35000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-15",
     property_type: House,
     favourite: false,
     image:
@@ -75,7 +75,7 @@ const data = [
     id: 8,
     location: Mumbai,
     price: 39000,
-    available_from: "09/12/2022",
+    available_from: "2022-11-15",
     property_type: House,
     favourite: false,
     image:
@@ -85,7 +85,7 @@ const data = [
     id: 9,
     location: Mumbai,
     price: 43000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-25",
     property_type: House,
     favourite: false,
     image:
@@ -95,7 +95,7 @@ const data = [
     id: 10,
     location: Mumbai,
     price: 48000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-25",
     property_type: House,
     favourite: false,
     image:
@@ -105,7 +105,7 @@ const data = [
     id: 11,
     location: Delhi,
     price: 9000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-15",
     property_type: Flat,
     favourite: false,
     image:
@@ -115,7 +115,7 @@ const data = [
     id: 12,
     location: Delhi,
     price: 18000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-15",
     property_type: Flat,
     favourite: false,
     image:
@@ -125,7 +125,7 @@ const data = [
     id: 13,
     location: Delhi,
     price: 27000,
-    available_from: "09/12/2022",
+    available_from: "2022-11-15",
     property_type: Flat,
     favourite: false,
     image:
@@ -135,7 +135,7 @@ const data = [
     id: 14,
     location: Delhi,
     price: 29000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-25",
     property_type: Flat,
     favourite: false,
     image:
@@ -145,7 +145,7 @@ const data = [
     id: 15,
     location: Delhi,
     price: 32000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-25",
     property_type: Flat,
     favourite: false,
     image:
@@ -155,7 +155,7 @@ const data = [
     id: 16,
     location: Delhi,
     price: 19000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-29",
     property_type: House,
     favourite: false,
     image:
@@ -165,7 +165,7 @@ const data = [
     id: 17,
     location: Delhi,
     price: 26000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-29",
     property_type: House,
     favourite: false,
     image:
@@ -175,7 +175,7 @@ const data = [
     id: 18,
     location: Delhi,
     price: 28000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-20",
     property_type: House,
     favourite: false,
     image:
@@ -185,7 +185,7 @@ const data = [
     id: 19,
     location: Delhi,
     price: 31000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-22",
     property_type: House,
     favourite: false,
     image:
@@ -195,7 +195,7 @@ const data = [
     id: 20,
     location: Delhi,
     price: 37000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-17",
     property_type: Bungalows,
     favourite: false,
     image:
@@ -205,7 +205,7 @@ const data = [
     id: 21,
     location: Delhi,
     price: 39000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-20",
     property_type: Bungalows,
     favourite: false,
     image:
@@ -215,7 +215,7 @@ const data = [
     id: 22,
     location: Delhi,
     price: 41000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-25",
     property_type: Bungalows,
     favourite: false,
     image:
@@ -225,7 +225,7 @@ const data = [
     id: 23,
     location: Delhi,
     price: 45000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-25",
     property_type: Bungalows,
     favourite: false,
     image:
@@ -235,7 +235,7 @@ const data = [
     id: 24,
     location: Delhi,
     price: 49000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-15",
     property_type: Bungalows,
     favourite: false,
     image:
@@ -245,7 +245,7 @@ const data = [
     id: 25,
     location: Delhi,
     price: 36000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-18",
     property_type: Flat,
     favourite: false,
     image:
@@ -255,7 +255,7 @@ const data = [
     id: 26,
     location: Delhi,
     price: 42000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-13",
     property_type: Flat,
     favourite: false,
     image:
@@ -265,7 +265,7 @@ const data = [
     id: 27,
     location: Bangalore,
     price: 14000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-19",
     property_type: Flat,
     favourite: false,
     image:
@@ -275,7 +275,7 @@ const data = [
     id: 28,
     location: Bangalore,
     price: 19000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-25",
     property_type: Flat,
     favourite: false,
     image:
@@ -285,7 +285,7 @@ const data = [
     id: 29,
     location: Bangalore,
     price: 27000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-10",
     property_type: Flat,
     favourite: false,
     image:
@@ -295,7 +295,7 @@ const data = [
     id: 30,
     location: Bangalore,
     price: 29000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-14",
     property_type: Flat,
     favourite: false,
     image:
@@ -305,7 +305,7 @@ const data = [
     id: 31,
     location: Bangalore,
     price: 32000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-26",
     property_type: Flat,
     favourite: false,
     image:
@@ -315,7 +315,7 @@ const data = [
     id: 32,
     location: Bangalore,
     price: 38000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-6",
     property_type: Flat,
     favourite: false,
     image:
@@ -325,7 +325,7 @@ const data = [
     id: 33,
     location: Bangalore,
     price: 35000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-15",
     property_type: House,
     favourite: false,
     image:
@@ -335,7 +335,7 @@ const data = [
     id: 34,
     location: Bangalore,
     price: 39000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-25",
     property_type: House,
     favourite: false,
     image:
@@ -345,7 +345,7 @@ const data = [
     id: 35,
     location: Bangalore,
     price: 41000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-30",
     property_type: House,
     favourite: false,
     image:
@@ -355,7 +355,7 @@ const data = [
     id: 36,
     location: Bangalore,
     price: 43000,
-    available_from: "09/12/2022",
+    available_from: "2022-10-15",
     property_type: House,
     favourite: false,
     image:
@@ -365,7 +365,7 @@ const data = [
     id: 37,
     location: Bangalore,
     price: 48000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-15",
     property_type: Bungalows,
     favourite: false,
     image:
@@ -375,7 +375,7 @@ const data = [
     id: 38,
     location: Bangalore,
     price: 49000,
-    available_from: "09/12/2022",
+    available_from: "2022-09-29",
     property_type: Bungalows,
     favourite: false,
     image:

@@ -1,17 +1,10 @@
 import React, { useState } from "react";
 import { FiSearch } from "react-icons/fi";
-import {
-  useSearchParams,
-  useNavigate,
-  createSearchParams,
-} from "react-router-dom";
+import { useNavigate, createSearchParams } from "react-router-dom";
 import { AppContext } from "../context";
-import Modal from "./Modal";
 
 const SearchBar = () => {
-  const { isModalOpen, modalContent, EmptyFields, InvalidValues } =
-    React.useContext(AppContext);
-  const [searchParams, setSearchParams] = useSearchParams();
+  const { EmptyFields, InvalidValues } = React.useContext(AppContext);
 
   const navigate = useNavigate();
   const [inputs, setInputs] = useState({
@@ -64,15 +57,17 @@ const SearchBar = () => {
   return (
     <>
       <form onSubmit={handleSubmit} className="form">
-        {/* <section>Search Property to Rent</section> */}
-        <section>
-          {isModalOpen && <Modal modalContent={modalContent} />}
-        </section>
+        <section className="SearchBar-title">Search Property to Rent</section>
+
         <section className="form-control">
+          {/* <section className="modal-display"> */}
+          {/* {isModalOpen && <Modal modalContent={modalContent} />} */}
+          {/* </section> */}
           <div>
             <label htmlFor="location">location</label>
             <input
               id="location"
+              placeholder="type Mumbai/Delhi/Bangalore"
               type="text"
               name="location"
               value={inputs.location}
@@ -141,8 +136,7 @@ const SearchBar = () => {
               </option>
               <option value="House">House</option>
               <option value="Bungalows">Bungalows</option>
-              <option value="Flat">Flat</option>\
-              <option value="Serviced-Apartment">Serviced-Apartment</option>
+              <option value="Flat">Flat</option>
             </select>
           </div>
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropertyCard from "./PropertyCard";
 import { useSearchParams } from "react-router-dom";
 import { AppContext } from "../context";
@@ -6,7 +6,7 @@ import { AppContext } from "../context";
 const SearchedProperties = () => {
   const { propertyData } = React.useContext(AppContext);
 
-  let [searchParams, setSearchParams] = useSearchParams();
+  let [searchParams] = useSearchParams();
 
   const minPrice = searchParams.get("minPrice");
   const maxPrice = searchParams.get("maxPrice");
